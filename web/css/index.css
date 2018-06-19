@@ -1,0 +1,714 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  color: #222226;
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  background: #fff;
+}
+html > #app,
+body > #app {
+  height: 100%;
+}
+input,
+textarea {
+  font-size: 12px;
+  font-family: "Microsoft Yahei";
+  color: #888888;
+  outline: medium;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #F1F1F1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #d8d8d9;
+  border-radius: 10px;
+  outline: none;
+}
+::-webkit-scrollbar-thumb:hover {
+  height: 50px;
+  background-color: #c2c2c2;
+  border-radius: 10px;
+}
+.content-block {
+  width: 100%;
+  padding: 0 5%;
+  background: #fff;
+  box-sizing: border-box;
+}
+.content-block .content-title {
+  font-size: 18px;
+  color: #222226;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 22px;
+  font-weight: bolder;
+}
+.content-block .content-introduce {
+  width: 80%;
+  margin: auto;
+  font-size: 12px;
+  color: #888888;
+  letter-spacing: 0.69px;
+  text-align: center;
+  line-height: 20px;
+}
+.main .tip-icon {
+  width: 100%;
+  height: 80px;
+  background: url(./img/tip.png?v=201806191853) center center no-repeat;
+}
+.main .main-tip {
+  text-align: center;
+  line-height: 1.4em;
+  padding: 0 20px;
+}
+.main .main-gif {
+  width: 100%;
+  height: 180px;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 30px;
+  line-height: 180px;
+  text-align: center;
+  margin-top: 20px;
+}
+.main .begin-block {
+  padding: 30px 15px;
+}
+.main .main-begin-tip {
+  display: flex;
+  padding: 10px;
+  background: #F6F6F6;
+}
+.main .begin-tip-img {
+  width: 30px;
+  background: url(./img/tip.png?v=201806191853) no-repeat;
+  background-size: 20px 20px;
+}
+.main .begin-tip-content {
+  flex: 1;
+}
+.main .begin-btn-wrap {
+  padding: 15px 50px;
+}
+.main .agree-wrap {
+  text-align: center;
+  margin-top: 10px;
+}
+.main .video-wrap {
+  padding: 15px 60px;
+}
+.main .main-notice {
+  background: #FCF6E6;
+  color: #CB835D;
+  padding: 5px 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+.main .video-block {
+  height: 150px;
+  line-height: 150px;
+}
+.work {
+  position: relative;
+  height: calc(100% - 2px);
+  width: 328px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+}
+.work .work-tabs {
+  height: 52px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #222226;
+}
+.work .work-tabs .tab-item {
+  margin: 7px;
+  width: 90px;
+  height: 52px;
+  background-color: #E3EDDB;
+  text-align: center;
+  line-height: 52px;
+}
+.work .work-tabs .tab-active {
+  background-color: #64AD3E;
+  color: #FFF;
+}
+.work .work-content {
+  max-height: calc(100% - 65px);
+  margin-left: 7px;
+  margin-top: 15px;
+  margin-right: 7px;
+  box-sizing: border-box;
+}
+.work .work-content .work-layout {
+  position: relative;
+  color: #222226;
+}
+.work .work-content .work-layout p {
+  margin: 0;
+}
+.work .work-content .work-layout .list {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.work .work-content .work-layout .list .list-title {
+  background-color: #F2F2F2;
+  padding: 6px;
+  height: 34px;
+  line-height: 34px;
+  margin-bottom: 3px;
+  padding-left: 12px;
+  font-weight: 700;
+}
+.work .work-content .work-layout .list .list-title i {
+  float: right;
+  color: #50B379;
+}
+.work .work-content .work-layout .list .list-title .icon-down {
+  transform: rotate(-90deg);
+}
+.work .work-content .work-layout .list .list-title .num-bg {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #50B379;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.work .work-content .work-layout .list .buttons-content div {
+  margin-bottom: 3px;
+}
+.work .work-content .work-layout .list .buttons-content div .list-button {
+  display: inline-block;
+  width: 236px;
+  height: 36px;
+  border: 1px solid #50B379;
+  color: #50B379;
+  margin-top: 5px;
+  padding: 6px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+}
+.work .work-content .work-layout .list .buttons-content div .buttonCheck {
+  margin-left: 23px;
+  vertical-align: middle;
+}
+.work .work-content .work-layout .list .buttons-content div .button-help {
+  margin-left: 15px;
+  color: #50B379;
+  text-decoration: underline;
+}
+.work .work-content .work-layout .list:last-child {
+  margin-bottom: 0;
+}
+.work .work-self {
+  max-height: calc(100% - 130px);
+}
+.work .custom-button-box {
+  width: 328px;
+  height: 74px;
+  border: 1px solid #ccc;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 0;
+}
+.work .custom-button-box .edit-btn,
+.work .custom-button-box .save-btn {
+  width: 240px;
+  height: 40px;
+  margin-left: 44px;
+  margin-top: 17px;
+  border-radius: 5%;
+}
+.finance-tools {
+  width: 330px;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #F5F5F5;
+  position: relative;
+}
+.finance-tools .tool-title {
+  font-size: 18px;
+  color: #222226;
+  letter-spacing: 1.2px;
+  text-align: center;
+  font-weight: bold;
+  height: 24px;
+  line-height: 24px;
+  margin-top: 31px;
+  margin-bottom: 6px;
+}
+.finance-tools .tool-tip-box {
+  height: 18px;
+  line-height: 18px;
+  font-size: 12px;
+  color: #888888;
+  letter-spacing: 0.8px;
+  margin-bottom: 31px;
+  position: relative;
+}
+.finance-tools .tool-tip-box img {
+  position: absolute;
+  left: 46px;
+  top: 2px;
+}
+.finance-tools .tool-tip-box div {
+  position: absolute;
+  left: 68px;
+}
+.finance-tools .tool-tip-box .ask-me {
+  color: #50B379;
+  letter-spacing: 0.42px;
+  cursor: pointer;
+}
+.finance-tools .xmask {
+  opacity: 0.3;
+  background-color: #000000;
+  width: 330px;
+  height: 818px;
+  min-height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 888;
+}
+.finance-tools .box-part-1 {
+  margin: 15px auto;
+  width: 100%;
+  padding-left: 15px;
+}
+.finance-tools span {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  cursor: default;
+}
+.finance-tools img {
+  -webkit-user-drag: none;
+}
+.help-box {
+  display: inline-block;
+  position: relative;
+}
+.help-box .tip-bubble {
+  width: 49px;
+  height: 26px;
+  line-height: 26px;
+  opacity: 0.8;
+  background-color: #222226;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 12px;
+  color: #FFFFFF;
+  letter-spacing: 0.42px;
+  position: absolute;
+  top: -35px;
+  left: -19px;
+}
+.help-box .tip-bubble:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top-color: #222226;
+  position: absolute;
+  top: 100%;
+  left: 22px;
+}
+.help-box .long-tip {
+  width: 181px;
+  left: -151px;
+}
+.help-box .long-tip:after {
+  left: 154px;
+}
+.help-box .close-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.help-box .firstBar-tip {
+  position: absolute;
+  left: 12px;
+  top: 4px;
+  height: 16px;
+  line-height: 16px;
+}
+.calculator-box {
+  position: relative;
+  height: 56px;
+  width: 300px;
+  margin-left: 15px;
+  margin-bottom: 1px;
+}
+.calculator-box .extends-show {
+  position: absolute;
+  z-index: 999;
+  background-color: #FFF;
+  width: 100%;
+}
+.calculator-box .extends-show .button-icon {
+  position: absolute;
+  top: 12px;
+  left: 14px;
+}
+.calculator-box .extends-show .title-area {
+  width: 100%;
+  height: 59px;
+}
+.calculator-box .extends-show .title-area span {
+  font-weight: bold;
+  font-size: 13px;
+  color: #F5A623;
+  letter-spacing: 0.37px;
+  height: 17px;
+  line-height: 17px;
+  position: absolute;
+  left: 56px;
+  top: 19px;
+}
+.calculator-box .extends-show .input-area {
+  width: 100%;
+}
+.calculator-box .extends-show .input-area .input-box {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  padding-top: 10px;
+  position: relative;
+}
+.calculator-box .extends-show .input-area .input-box input {
+  height: 28px;
+  width: 189px;
+  border: 1px solid #DBDBDB;
+}
+.calculator-box .extends-show .input-area .input-box .pre-text {
+  margin-left: 20px;
+  display: inline-block;
+  width: 62px;
+  margin-right: 5px;
+  font-size: 13px;
+  color: #696969;
+  letter-spacing: 0.37px;
+}
+.calculator-box .extends-show .input-area .input-box .inner-text {
+  position: absolute;
+  top: 18px;
+  right: 30px;
+  font-size: 13px;
+  color: #696969;
+  letter-spacing: 0.37px;
+  height: 17px;
+  line-height: 17px;
+  width: 14.4px;
+}
+.calculator-box .extends-show .input-area .input-box .column-content {
+  border: 1px #DBDBDB solid;
+  height: 32px;
+  padding: 7px 0;
+  box-sizing: border-box;
+  margin: 0 15px;
+}
+.calculator-box .extends-show .input-area .input-box .column-content .column-left {
+  float: left;
+  width: 80%;
+  height: 16px;
+  line-height: 16px;
+  border-right: 1px #DBDBDB solid;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
+}
+.calculator-box .extends-show .input-area .input-box .column-content .column-left .column-name {
+  display: inline-block;
+  width: 30%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.calculator-box .extends-show .input-area .input-box .column-content .column-left .column-result {
+  display: inline-block;
+  width: 70%;
+  text-align: right;
+  color: #696969;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.calculator-box .extends-show .input-area .input-box .column-content .column-left .column-result-temp {
+  color: #A7A7A7;
+}
+.calculator-box .extends-show .input-area .input-box .column-content .column-right {
+  float: right;
+  width: 20%;
+  height: 50%;
+  color: #50B379;
+  text-align: center;
+  line-height: 16px;
+}
+.calculator-box .extends-show .input-area .input-box .column-content .column-right .selectBtn {
+  cursor: pointer;
+}
+.calculator-box .extends-show .btn-area {
+  width: 100%;
+}
+.calculator-box .extends-show .btn-area .output-btn {
+  background-color: #F5A623;
+  width: 260px;
+  height: 36px;
+  line-height: 36px;
+  margin-left: 20px;
+  margin-top: 29px;
+  cursor: pointer;
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+.calculator-box .extends-show .btn-area .shrink-btn {
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 13px;
+  color: #F5A623;
+  letter-spacing: 0.37px;
+  margin-bottom: 21px;
+  margin-top: 11px;
+}
+.calculator-box .extends-show .bar-help {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.calculator-box .calculator-btn {
+  background-color: #FFF;
+  height: 56px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+}
+.calculator-box .calculator-btn .btn-name {
+  cursor: pointer;
+  position: absolute;
+  left: 56px;
+  top: 19px;
+  font-size: 13px;
+  color: #696969;
+  letter-spacing: 0.37px;
+  height: 17px;
+  line-height: 17px;
+}
+.calculator-box .calculator-btn .switch-on {
+  position: absolute;
+  top: 16px;
+  right: 12px;
+  width: 48px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  background-color: #50B379;
+  color: #FFF;
+  border-radius: 2px;
+  font-size: 12px;
+  letter-spacing: 0.42px;
+}
+.calculator-box .calculator-btn .list-box {
+  position: absolute;
+  top: 14px;
+  left: 110px;
+  width: 60px;
+  height: 30px;
+}
+.calculator-box .calculator-btn .list-box img {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+}
+.calculator-box .calculator-btn .items-box {
+  width: 91px;
+  position: absolute;
+  top: 50px;
+  left: 51px;
+  background-color: #FFF;
+  border: 1px solid #ECECEC;
+}
+.calculator-box .calculator-btn .items-box div {
+  width: 100%;
+  height: 34px;
+  display: inline-block;
+}
+.calculator-box .calculator-btn .items-box div p {
+  font-size: 13px;
+  color: #696969;
+  letter-spacing: 0.37px;
+  height: 17px;
+  line-height: 17px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+.calculator-box .calculator-btn .button-icon {
+  position: absolute;
+  top: 12px;
+  left: 14px;
+}
+.calculator-box .calculator-btn .bar-help {
+  display: inline-block;
+  position: absolute;
+  right: 12px;
+  top: 20px;
+}
+.calculator-box .left-border {
+  float: left;
+  height: 48px;
+  border: 1px solid #DBDBDB;
+}
+.block-box {
+  width: 98px;
+  height: 88px;
+  display: inline-block;
+  margin-right: 3px;
+  margin-bottom: 0;
+  position: relative;
+  cursor: pointer;
+  background-color: #FFF;
+}
+.block-box .block-name {
+  position: absolute;
+  bottom: 14.5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  cursor: pointer;
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #696969;
+  letter-spacing: 0.34px;
+}
+.block-box .btn-subtitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.block-box .button-icon {
+  position: absolute;
+  left: 33px;
+  top: 18.2px;
+}
+.block-box .block-help {
+  display: inline-block;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+.undo-box {
+  margin-left: 15px;
+  margin-bottom: 27px;
+  width: 298px;
+  height: 34px;
+  line-height: 34px;
+  background-color: #FFF;
+  border: 1px solid #E7E7E7;
+  border-radius: 100px;
+  font-size: 13px;
+  color: #696969;
+  letter-spacing: 0.37px;
+  position: relative;
+}
+.undo-box img {
+  position: absolute;
+  top: 9px;
+  left: 57px;
+}
+.undo-box span {
+  position: absolute;
+  top: 9px;
+  left: 78.4px;
+  height: 17px;
+  line-height: 17px;
+}
+.undo-disabled {
+  position: relative;
+}
+.undo-disabled img {
+  position: absolute;
+  top: 9px;
+  left: 112px;
+  opacity: 0.4;
+}
+.undo-disabled span {
+  position: absolute;
+  top: 9px;
+  left: 133.4px;
+  height: 17px;
+  line-height: 17px;
+  opacity: 0.4;
+}
+.kso-btn {
+  width: 100%;
+  background: #50B379;
+  border: none;
+  height: 34px;
+  color: #fff;
+  font-size: 12px;
+  outline: none;
+  font-family: "Microsoft YaHei";
+  letter-spacing: 0.4px;
+  cursor: pointer;
+}
+.kso-btn:active {
+  opacity: 0.8;
+}
+.kso-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.ghost {
+  background-color: #ffffff;
+  border: 1px solid #50B379;
+  color: #50B379;
+}
+.gray {
+  background-color: #ffffff;
+  border: 1px solid #a7a7a7;
+  color: #696969;
+}
+.kso-checkbox i {
+  position: relative;
+  top: 3px;
+  margin-right: 3px;
+  font-size: 20px;
+  color: #50b478;
+}
+.kso-segment {
+  background-color: #F5F5F5;
+  height: 10px;
+  width: 100%;
+}
+.thin {
+  background-color: #EFEFEF;
+  height: 1px;
+  width: 100%;
+  margin: auto;
+}

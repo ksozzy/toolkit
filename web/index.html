@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>et小工具合集</title>
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_664006_fqclkhwof57gy14i.css">
+<link href="css/index.css?v=201806191853" rel="stylesheet"></head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    window.env = 'production'
+    if (window['env'] !== 'production') {
+      document.onkeypress = event => {
+        if (event.ctrlKey === true && event.keyCode === 6) {
+          location.reload()
+        }
+      }
+    }
+  </script>
+<script type="text/javascript" src="js/index.js?v=201806191853"></script><script type="text/javascript" src="js/vendor.js?v=201806191853"></script></body>
+
+</html>
