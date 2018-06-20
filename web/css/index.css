@@ -65,7 +65,7 @@ textarea {
 .main .tip-icon {
   width: 100%;
   height: 80px;
-  background: url(./img/tip.png?v=201806191853) center center no-repeat;
+  background: url(./img/tip.png?v=201806210003) center center no-repeat;
 }
 .main .main-tip {
   text-align: center;
@@ -91,7 +91,7 @@ textarea {
 }
 .main .begin-tip-img {
   width: 30px;
-  background: url(./img/tip.png?v=201806191853) no-repeat;
+  background: url(./img/tip.png?v=201806210003) no-repeat;
   background-size: 20px 20px;
 }
 .main .begin-tip-content {
@@ -664,51 +664,4 @@ textarea {
   height: 17px;
   line-height: 17px;
   opacity: 0.4;
-}
-.kso-btn {
-  width: 100%;
-  background: #50B379;
-  border: none;
-  height: 34px;
-  color: #fff;
-  font-size: 12px;
-  outline: none;
-  font-family: "Microsoft YaHei";
-  letter-spacing: 0.4px;
-  cursor: pointer;
-}
-.kso-btn:active {
-  opacity: 0.8;
-}
-.kso-btn:disabled {
-  opacity: 0.5;
-  cursor: default;
-}
-.ghost {
-  background-color: #ffffff;
-  border: 1px solid #50B379;
-  color: #50B379;
-}
-.gray {
-  background-color: #ffffff;
-  border: 1px solid #a7a7a7;
-  color: #696969;
-}
-.kso-checkbox i {
-  position: relative;
-  top: 3px;
-  margin-right: 3px;
-  font-size: 20px;
-  color: #50b478;
-}
-.kso-segment {
-  background-color: #F5F5F5;
-  height: 10px;
-  width: 100%;
-}
-.thin {
-  background-color: #EFEFEF;
-  height: 1px;
-  width: 100%;
-  margin: auto;
 }

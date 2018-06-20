@@ -7,7 +7,7 @@ require 'json'
 require 'Qt'
 require_relative 'fileutils'
 
-module AIOffice
+module AIOffice_Toolkit
 
   class Sample < KSO_SDK::JsBridge
 

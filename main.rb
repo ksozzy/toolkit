@@ -3,7 +3,7 @@ require 'sdk'
 require_relative 'src/apis'
 require 'Qt'
 
-module AIOffice
+module AIOffice_Toolkit
   
   class MainApp < KSO_SDK::App
   
