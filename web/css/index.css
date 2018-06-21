@@ -65,7 +65,7 @@ textarea {
 .main .tip-icon {
   width: 100%;
   height: 80px;
-  background: url(./img/tip.png?v=201806210003) center center no-repeat;
+  background: url(./img/tip.png?v=201806211017) center center no-repeat;
 }
 .main .main-tip {
   text-align: center;
@@ -91,7 +91,7 @@ textarea {
 }
 .main .begin-tip-img {
   width: 30px;
-  background: url(./img/tip.png?v=201806210003) no-repeat;
+  background: url(./img/tip.png?v=201806211017) no-repeat;
   background-size: 20px 20px;
 }
 .main .begin-tip-content {
