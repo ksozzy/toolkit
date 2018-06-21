@@ -2,7 +2,7 @@
   "appId" : "ODQ1YWQ1YzkyYTUz",
   "scriptId" : "14",
   "appDb" : "ODQ1YWQ1YzkyYTUz",
-  "dbService" : "http://assist.docer.wps.cn/mongotest/",
+  "dbService" : "http://assist.docer.wps.cn/mongo/",
   "isDev" : false,
   "feedbackUrl" : "http://support.qq.com/products/30916",
   "bindPage" : true,
