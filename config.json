@@ -7,7 +7,7 @@
   "feedbackUrl" : "http://support.qq.com/products/30916",
   "bindPage" : true,
   "title" : "高级财务助手",
-  "icon" : "icon.png",
+  "icon" : "icon2.png",
   "action" : "AIOffice_Toolkit",
   "shareUrl" : "ksocustomprotocol://dockerWpp/http://10.13.90.213:82/10001950.pptx"
 }
